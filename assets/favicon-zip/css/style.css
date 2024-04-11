@@ -1,20 +1,33 @@
 /* Asterisk wildcard selector to override default styles added in browser */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Bpdy style rule */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+
+}
+
 /* Header */
-header {    
+header {
     background-color: lightcoral;
 }
 
 /*  Main content */
 main {
     background-color: lightblue;
+    /* Generic project styles */
+    flex: 1 0 auto;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: orange;
 }
